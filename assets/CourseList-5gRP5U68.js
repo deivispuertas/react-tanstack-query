@@ -1,0 +1,1 @@
+import{R as e,j as i}from"./index-m1Y0u5DS.js";const n=e.memo(({courses:s})=>i.jsx("ul",{children:s.map(t=>i.jsxs("li",{children:[i.jsx("h2",{children:t.title}),i.jsx("p",{children:t.description}),i.jsx("p",{children:t.duration})]},t.id))}));export{n as default};
