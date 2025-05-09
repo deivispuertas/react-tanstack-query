@@ -9,7 +9,7 @@ interface Course {
 }
 
 const fetchCourses: QueryFunction<Course[]> = async () => {
-    const response = await fetch("api/course.json");
+    const response = await fetch("/api/courses.json");
     if(!response.ok){
         throw new Error("Network response was not ok");
     }
